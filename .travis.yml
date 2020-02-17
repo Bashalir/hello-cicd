@@ -29,4 +29,5 @@ script:
 
 deploy:
   provider: heroku
+  api_key: ${api_key}
   app: hello-ci2
